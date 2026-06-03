@@ -1,0 +1,17 @@
+name = "quiz-site-api"
+main = "src/index.js"
+compatibility_date = "2026-06-03"
+
+routes = [
+  { pattern = "net-pr-re-quiz.m15tak3.com/api/*", zone_name = "m15tak3.com" }
+]
+
+[vars]
+APP_URL = "https://net-pr-re-quiz.m15tak3.com"
+ALLOWED_ORIGINS = "https://net-pr-re-quiz.m15tak3.com"
+GITHUB_CLIENT_ID = "replace-with-github-oauth-client-id"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "quiz_site"
+database_id = "replace-with-cloudflare-d1-database-id"
