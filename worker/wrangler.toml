@@ -9,9 +9,9 @@ routes = [
 [vars]
 APP_URL = "https://net-pr-re-quiz.m15tak3.com"
 ALLOWED_ORIGINS = "https://net-pr-re-quiz.m15tak3.com"
-GITHUB_CLIENT_ID = "replace-with-github-oauth-client-id"
+GITHUB_CLIENT_ID = "Ov23liQgJHaIfBzE8QkN"
 
 [[d1_databases]]
 binding = "DB"
 database_name = "quiz_site"
-database_id = "replace-with-cloudflare-d1-database-id"
+database_id = "85d19b3f-83cb-4000-aed6-6e329e0af085"
